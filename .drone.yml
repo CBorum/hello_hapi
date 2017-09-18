@@ -5,3 +5,6 @@ pipeline:
   test:
     image: node:latest
     commands: npm run test
+  publish:
+    image: node:latest
+    repo: CBorum/hello_hapi
